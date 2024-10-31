@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{86B0D057-B416-495D-92C3-CE9E787F32BA}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Documentacion prueba.md = ..\..\..\..\Desktop\Documentacion prueba.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A76D700-E778-4D02-B477-9CC9099E5024}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{09FA2893-8705-4F96-9959-476B53AB25E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2A975CF6-F9F8-4CA2-AB40-79B7839DA445}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1B41C70E-B0C0-4F3A-83A0-8579F5A30EFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Water_Jug_Challenge.API", "Water_Jug_Challenge.API\Water_Jug_Challenge.API.csproj", "{1581975A-AACD-4E5B-9D38-5354FDB0F4D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Water_Jug_Challenge.Application", "Water_Jug_Challenge.Application\Water_Jug_Challenge.Application.csproj", "{D694985A-E142-460C-A00E-01AAA08BABC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Water_Jug_Challenge.Domain", "Water_Jug_Challenge.Domain\Water_Jug_Challenge.Domain.csproj", "{E59351C6-0F92-436C-BC06-42729575B4F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Water_Jug_Challenge.Application.UnitTest", "Water_Jug_Challenge.Application.UnitTest\Water_Jug_Challenge.Application.UnitTest.csproj", "{A163755F-0589-465E-81FC-AE4C8A0AF3B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1581975A-AACD-4E5B-9D38-5354FDB0F4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1581975A-AACD-4E5B-9D38-5354FDB0F4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1581975A-AACD-4E5B-9D38-5354FDB0F4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1581975A-AACD-4E5B-9D38-5354FDB0F4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D694985A-E142-460C-A00E-01AAA08BABC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D694985A-E142-460C-A00E-01AAA08BABC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D694985A-E142-460C-A00E-01AAA08BABC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D694985A-E142-460C-A00E-01AAA08BABC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59351C6-0F92-436C-BC06-42729575B4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59351C6-0F92-436C-BC06-42729575B4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59351C6-0F92-436C-BC06-42729575B4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59351C6-0F92-436C-BC06-42729575B4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A163755F-0589-465E-81FC-AE4C8A0AF3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A163755F-0589-465E-81FC-AE4C8A0AF3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A163755F-0589-465E-81FC-AE4C8A0AF3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A163755F-0589-465E-81FC-AE4C8A0AF3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A975CF6-F9F8-4CA2-AB40-79B7839DA445} = {8A76D700-E778-4D02-B477-9CC9099E5024}
+		{1B41C70E-B0C0-4F3A-83A0-8579F5A30EFC} = {8A76D700-E778-4D02-B477-9CC9099E5024}
+		{1581975A-AACD-4E5B-9D38-5354FDB0F4D2} = {2A975CF6-F9F8-4CA2-AB40-79B7839DA445}
+		{D694985A-E142-460C-A00E-01AAA08BABC4} = {1B41C70E-B0C0-4F3A-83A0-8579F5A30EFC}
+		{E59351C6-0F92-436C-BC06-42729575B4F7} = {1B41C70E-B0C0-4F3A-83A0-8579F5A30EFC}
+		{A163755F-0589-465E-81FC-AE4C8A0AF3B0} = {09FA2893-8705-4F96-9959-476B53AB25E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8F669BB-2CD9-416B-A81A-1394574D699B}
+	EndGlobalSection
+EndGlobal
