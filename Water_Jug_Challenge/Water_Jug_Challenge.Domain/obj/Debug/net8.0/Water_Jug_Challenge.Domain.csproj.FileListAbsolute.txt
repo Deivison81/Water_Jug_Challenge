@@ -1,0 +1,12 @@
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\bin\Debug\net8.0\Water_Jug_Challenge.Domain.deps.json
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\bin\Debug\net8.0\Water_Jug_Challenge.Domain.dll
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\bin\Debug\net8.0\Water_Jug_Challenge.Domain.pdb
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\obj\Debug\net8.0\Water_Jug_Challenge.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\obj\Debug\net8.0\Water_Jug_Challenge.Domain.AssemblyInfoInputs.cache
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\obj\Debug\net8.0\Water_Jug_Challenge.Domain.AssemblyInfo.cs
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\obj\Debug\net8.0\Water_Jug_Challenge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\obj\Debug\net8.0\Water_Jug_Challenge.Domain.sourcelink.json
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\obj\Debug\net8.0\Water_Jug_Challenge.Domain.dll
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\obj\Debug\net8.0\refint\Water_Jug_Challenge.Domain.dll
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\obj\Debug\net8.0\Water_Jug_Challenge.Domain.pdb
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.Domain\obj\Debug\net8.0\ref\Water_Jug_Challenge.Domain.dll

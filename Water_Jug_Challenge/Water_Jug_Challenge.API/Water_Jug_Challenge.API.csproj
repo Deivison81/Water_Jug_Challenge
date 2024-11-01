@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Water_Jug_Challenge.Application.UnitTest\Water_Jug_Challenge.Application.UnitTest.csproj" />
+    <ProjectReference Include="..\Water_Jug_Challenge.Application\Water_Jug_Challenge.Application.csproj" />
+    <ProjectReference Include="..\Water_Jug_Challenge.Domain\Water_Jug_Challenge.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

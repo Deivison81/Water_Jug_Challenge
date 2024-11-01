@@ -1,19 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using Water_Jug_Challenge.Domain;
 using Water_Jug_Challenge.Application.Contracts.Services;
-using System.Runtime.CompilerServices;
-using System.Data;
-using System.ComponentModel.DataAnnotations;
-
+using Microsoft.Extensions.Caching.Memory;
+using System.Threading.Tasks;
 
 namespace Water_Jug_Challenge.Application.Features.CapacityX
 {
     public class CapacityXHandler : IgenericServices<JugsX>
     {
+        private IMemoryCache _cache;
+
+        public CapacityXHandler(IMemoryCache cache)
+        {
+            _cache = cache;
+        }
+
         public async Task<JugsX> Llenar(JugsX value)
         {
             Stack<int> pila = new Stack<int>();
@@ -35,6 +36,7 @@ namespace Water_Jug_Challenge.Application.Features.CapacityX
             }
 
             var capacidadx = new JugsX { x = pila.Count };
+            _cache.Set(1, capacidadx, DateTimeOffset.Now.AddMinutes(10));
 
             return await Task.FromResult(capacidadx);
  
@@ -48,6 +50,7 @@ namespace Water_Jug_Challenge.Application.Features.CapacityX
         public async Task<JugsX> Vaciar(JugsX value)
         {
             Stack<int> pila = new Stack<int>();
+            var cacheexist = _cache.Get(1);
             int capacidad = value.x;
             try
             {

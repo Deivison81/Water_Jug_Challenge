@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.Caching.Memory;
 using Water_Jug_Challenge.Application.Contracts.Services;
 using Water_Jug_Challenge.Domain;
 
@@ -10,6 +6,13 @@ namespace Water_Jug_Challenge.Application.Features.CapacityY
 {
     public class CapacityYHandler : IgenericServices<JugsY>
     {
+        private IMemoryCache _cache;
+
+        public CapacityYHandler(IMemoryCache cache)
+        {
+            _cache = cache;
+        }
+
         public async Task<JugsY> Llenar(JugsY value)
         {
             Stack<int> pila = new Stack<int>();
@@ -34,6 +37,8 @@ namespace Water_Jug_Challenge.Application.Features.CapacityY
 
             var capacidadY = new JugsY { Y = pila.Count };
 
+            _cache.Set(2, capacidadY, DateTimeOffset.Now.AddMinutes(10));
+            
             return await Task.FromResult(capacidadY);
         }
 

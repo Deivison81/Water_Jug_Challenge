@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ww1mkSnxLP0=",
+  "dgSpecHash": "7+/ApD9yyKw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Indatech\\Documents\\Desarrollo\\water_jug\\Water_Jug_Challenge\\Water_Jug_Challenge.Application\\Water_Jug_Challenge.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Indatech\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Indatech\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Indatech\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\Indatech\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
