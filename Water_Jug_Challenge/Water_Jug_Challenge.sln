@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{86B0D057-B416-495D-92C3-CE9E787F32BA}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Configuration.md = ..\..\..\..\Desktop\Configuration.md
 		..\..\..\..\Desktop\Documentacion prueba.md = ..\..\..\..\Desktop\Documentacion prueba.md
+		..\..\..\..\Desktop\Test.md = ..\..\..\..\Desktop\Test.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A76D700-E778-4D02-B477-9CC9099E5024}"
@@ -16,13 +18,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2A975CF6-F9F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1B41C70E-B0C0-4F3A-83A0-8579F5A30EFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Water_Jug_Challenge.API", "Water_Jug_Challenge.API\Water_Jug_Challenge.API.csproj", "{1581975A-AACD-4E5B-9D38-5354FDB0F4D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Water_Jug_Challenge.API", "Water_Jug_Challenge.API\Water_Jug_Challenge.API.csproj", "{1581975A-AACD-4E5B-9D38-5354FDB0F4D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Water_Jug_Challenge.Application", "Water_Jug_Challenge.Application\Water_Jug_Challenge.Application.csproj", "{D694985A-E142-460C-A00E-01AAA08BABC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Water_Jug_Challenge.Application", "Water_Jug_Challenge.Application\Water_Jug_Challenge.Application.csproj", "{D694985A-E142-460C-A00E-01AAA08BABC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Water_Jug_Challenge.Domain", "Water_Jug_Challenge.Domain\Water_Jug_Challenge.Domain.csproj", "{E59351C6-0F92-436C-BC06-42729575B4F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Water_Jug_Challenge.Domain", "Water_Jug_Challenge.Domain\Water_Jug_Challenge.Domain.csproj", "{E59351C6-0F92-436C-BC06-42729575B4F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Water_Jug_Challenge.Application.UnitTest", "Water_Jug_Challenge.Application.UnitTest\Water_Jug_Challenge.Application.UnitTest.csproj", "{A163755F-0589-465E-81FC-AE4C8A0AF3B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Water_Jug_Challenge.Application.UnitTest", "Water_Jug_Challenge.Application.UnitTest\Water_Jug_Challenge.Application.UnitTest.csproj", "{A163755F-0589-465E-81FC-AE4C8A0AF3B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

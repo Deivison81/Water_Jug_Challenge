@@ -3,6 +3,7 @@ using Water_Jug_Challenge.Domain;
 using Water_Jug_Challenge.Application.Contracts.Services;
 using Microsoft.Extensions.Caching.Memory;
 using System.Threading.Tasks;
+using Water_Jug_Challenge.Application.Exception;
 
 namespace Water_Jug_Challenge.Application.Features.CapacityX
 {
@@ -19,7 +20,10 @@ namespace Water_Jug_Challenge.Application.Features.CapacityX
         {
             Stack<int> pila = new Stack<int>();
             int capacidad = value.x;
-            try 
+            
+            var result = new CapacityXValidation(value);
+
+            try
             {
                 if (pila.Count <= value.x)
                 {
@@ -30,9 +34,10 @@ namespace Water_Jug_Challenge.Application.Features.CapacityX
 
                     }
                 }
-            } catch (InvalidOperationException ex) 
+            }
+            catch (NotFoundException ex)
             {
-                Console.WriteLine("Excepción: Pila llena. " + ex.Message);
+                throw new Exception.NotFoundException("Ha ocurrido Error:" + ex.Message);
             }
 
             var capacidadx = new JugsX { x = pila.Count };

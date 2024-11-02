@@ -19,20 +19,22 @@ namespace Water_Jug_Challenge.Application.Features.Steps
             {
                 _steps[i].Arist.Add((Stepsby)_steps[i + 1]);
             }
+            
         }
 
 
-        public static void solutions(Stepsby countsteps)
+        public static List<int> solutions(Stepsby countsteps)
         {
+            List<int> result = new List<int>();
             if (countsteps != null)
             {
                 var valuesteps = countsteps.ValueSteps;
                 foreach (var item in countsteps.Arist)
                 {
-                    solutions(item);
+                   result.AddRange(solutions(item));
                 }
             }
-
+            return result;
         }
 
         

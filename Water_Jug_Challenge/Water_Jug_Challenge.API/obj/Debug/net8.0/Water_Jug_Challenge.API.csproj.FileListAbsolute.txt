@@ -29,7 +29,6 @@ C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_C
 C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.API\obj\Debug\net8.0\Water_Jug_Challenge.API.AssemblyInfoInputs.cache
 C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.API\obj\Debug\net8.0\Water_Jug_Challenge.API.AssemblyInfo.cs
 C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.API\obj\Debug\net8.0\Water_Jug_Challenge.API.csproj.CoreCompileInputs.cache
-C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.API\obj\Debug\net8.0\Water_Jug_Challenge.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.API\obj\Debug\net8.0\Water_Jug_Challenge.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.API\obj\Debug\net8.0\Water_Jug_Challenge.API.sourcelink.json
 C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.API\obj\Debug\net8.0\staticwebassets.build.json
@@ -127,3 +126,4 @@ C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_C
 C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.API\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.API\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.API\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Indatech\Documents\Desarrollo\water_jug\Water_Jug_Challenge\Water_Jug_Challenge.API\obj\Debug\net8.0\Water_Jug_Challenge.API.MvcApplicationPartsAssemblyInfo.cs

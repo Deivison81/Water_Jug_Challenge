@@ -1,5 +1,9 @@
-﻿using Microsoft.Extensions.Caching.Memory;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.Extensions.Caching.Memory;
 using Water_Jug_Challenge.Application.Contracts.Services;
+using Water_Jug_Challenge.Application.Exception;
+using Water_Jug_Challenge.Application.Features.CapacityX;
 using Water_Jug_Challenge.Domain;
 
 namespace Water_Jug_Challenge.Application.Features.CapacityY
@@ -15,8 +19,12 @@ namespace Water_Jug_Challenge.Application.Features.CapacityY
 
         public async Task<JugsY> Llenar(JugsY value)
         {
+            
             Stack<int> pila = new Stack<int>();
             int capacidad = value.Y;
+
+            var result = new CapacityYValidation(value);
+
             try
             {
                 if (pila.Count <= value.Y)
@@ -30,9 +38,9 @@ namespace Water_Jug_Challenge.Application.Features.CapacityY
                     }
                 }
             }
-            catch (InvalidOperationException ex)
+            catch (NotFoundException ex )
             {
-                Console.WriteLine("Excepción: Pila llena. " + ex.Message);
+               throw new Exception.NotFoundException( "Ha ocurrido Error:" + ex.Message);
             }
 
             var capacidadY = new JugsY { Y = pila.Count };
